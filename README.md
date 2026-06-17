@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/cairn-banner.png" alt="Cairn — the architecture compass that turns anyone into a system designer" width="100%">
+
 # 🗿 Cairn
 
 ### The architecture compass that turns anyone into a system designer.
