@@ -1,0 +1,32 @@
+{
+  "skill_name": "cairn",
+  "description": "Triggers for designing, structuring, reviewing, or refactoring software architecture at any experience level",
+  "queries": [
+    {"id": 1, "query": "How should I structure this new app? I don't really know how to design it.", "should_trigger": true},
+    {"id": 2, "query": "I'm building a payment service on Firebase — how should I organize the code?", "should_trigger": true},
+    {"id": 3, "query": "Review my codebase for architectural problems.", "should_trigger": true},
+    {"id": 4, "query": "Where should I draw the boundaries between modules?", "should_trigger": true},
+    {"id": 5, "query": "Is my folder structure right, or is everything too coupled?", "should_trigger": true},
+    {"id": 6, "query": "Should the database be a detail in my design, or central?", "should_trigger": true},
+    {"id": 7, "query": "Help me apply SOLID to these classes.", "should_trigger": true},
+    {"id": 8, "query": "I'm a beginner and want to build my system the right way from the start.", "should_trigger": true},
+    {"id": 9, "query": "Refactor this so the business logic doesn't depend on the framework.", "should_trigger": true},
+    {"id": 10, "query": "Am I over-engineering this? I have interfaces everywhere.", "should_trigger": true},
+    {"id": 11, "query": "Design the architecture for a multi-tenant SaaS backend.", "should_trigger": true},
+    {"id": 12, "query": "How do I make my business rules testable without the database?", "should_trigger": true},
+    {"id": 13, "query": "Should I split this into microservices?", "should_trigger": true},
+    {"id": 14, "query": "My Flutter app mixes UI and logic everywhere — how do I separate them?", "should_trigger": true},
+    {"id": 15, "query": "What does it mean for the web to be an IO device?", "should_trigger": true},
+
+    {"id": 16, "query": "Write a regex to validate email addresses.", "should_trigger": false},
+    {"id": 17, "query": "Why is my CSS flexbox not centering?", "should_trigger": false},
+    {"id": 18, "query": "Translate this paragraph into French.", "should_trigger": false},
+    {"id": 19, "query": "What's the time complexity of quicksort?", "should_trigger": false},
+    {"id": 20, "query": "Fix this failing unit test — it throws a null pointer.", "should_trigger": false},
+    {"id": 21, "query": "Generate marketing copy for our launch email.", "should_trigger": false},
+    {"id": 22, "query": "Set up a GitHub Actions workflow to run my tests.", "should_trigger": false},
+    {"id": 23, "query": "Optimize this SQL query that's running slow.", "should_trigger": false},
+    {"id": 24, "query": "What's the difference between let and const in JavaScript?", "should_trigger": false},
+    {"id": 25, "query": "Summarize this PDF for me.", "should_trigger": false}
+  ]
+}

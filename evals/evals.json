@@ -1,0 +1,54 @@
+{
+  "skill_name": "cairn",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm a beginner. I want to build a small app where users can book a home cleaning and pay for it. I don't know how to design it. It'll run on Firebase.",
+      "expected_output": "A guided, plain-language design walkthrough that produces a concrete folder structure and build order",
+      "expectations": [
+        "Starts with Step 0 discovery: detects Firebase/serverless stack and loads the matching stack profile",
+        "Uses Mode 0 (guided-build-for-beginners) with one-question-at-a-time, plain language, no untranslated jargon",
+        "Shows progress gauges across steps",
+        "SUPPRESSES database-is-a-detail / framework-is-a-detail rules because the stack is fixed Firebase, and says so explicitly",
+        "Defaults to a Minimal/Standard boundary level (core/ + handler), not full four-circle layering",
+        "Keeps pure business logic (pricing, validation) separate and testable without Firestore/Stripe",
+        "Ends with a concrete folder tree, a build order, and a 'run a bug/security review before shipping money code' caveat"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Audit this Firebase Cloud Function that creates Stripe PaymentIntents and writes to Firestore. Tell me what's architecturally wrong.",
+      "expected_output": "A stack-aware audit citing rule IDs, separating real structural issues from book-dogma that doesn't fit serverless",
+      "expectations": [
+        "Runs Step 0 and identifies the serverless stack before applying rules",
+        "Flags genuinely-applicable issues: SRP god-handler (R-016), import cycles (R-005), cross-file duplication (R-040/R-022), untestable money logic (R-037)",
+        "Explicitly labels database/web/framework-independence findings as low-value/SUPPRESS for this stack rather than reporting them as defects",
+        "Recommends extracting pure functions for the money math instead of wrapping fixed Firestore/Stripe in gateways",
+        "States that this is a STRUCTURE audit and does not replace a bug/security review"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I added a repository interface, a service interface, and a factory for my app — but each has only one implementation and it'll only ever use Firestore. Is this good architecture?",
+      "expected_output": "An over-engineering diagnosis using the guardrails, recommending removal of unjustified abstractions",
+      "expectations": [
+        "Applies the Anti-Over-Engineering Law and the 'name the change it protects against' test",
+        "Identifies single-implementation interfaces over a fixed service as an over-engineering smell",
+        "Recommends collapsing abstractions that protect against no real change, keeping only test seams that earn their place",
+        "Distinguishes this from under-engineering and does not swing to the opposite extreme"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Design the architecture for a long-lived Spring Boot backend that a team of 8 will maintain for years, with a Postgres database we might migrate later.",
+      "expected_output": "A full, rigorous architecture design appropriate to a swappable, long-lived monolith",
+      "expectations": [
+        "Runs Step 0, detects the monolith profile, and APPLIES the full rule set (does NOT suppress DB/framework rules here)",
+        "Recommends a Full boundary level (entities -> use cases -> interface adapters -> frameworks)",
+        "Defers the database/framework decisions and uses repository ports because migration is a real, named change",
+        "Applies component principles (ADP, SDP, SAP) given the team/release split",
+        "Produces an ADR documenting the boundary and deferral decisions with rule citations"
+      ]
+    }
+  ]
+}
