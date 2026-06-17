@@ -6,7 +6,8 @@ All notable changes to Cairn are documented here.
 
 ### Cairn is born — the architecture compass that turns anyone into a system designer
 
-First release of Cairn as an independent, self-contained system-design engine.
+First release of Cairn as an independent, self-contained system-design engine, created and authored by
+**Mohammed Nasher** ([@mhd-nasher](https://github.com/mhd-nasher)). Released open source under MIT.
 
 - **Three modes:** Mode 0 — Guided Build for beginners (interview-driven, plain language, stop-guards);
   Mode A — New Design; Mode B — Audit / Refactor.

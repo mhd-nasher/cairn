@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Cairn — the architecture compass that turns anyone into a system designer"
+message: "If you use Cairn, please cite it."
+type: software
+authors:
+  - given-names: Mohammed
+    family-names: Nasher
+    alias: mhd-nasher
+repository-code: "https://github.com/mhd-nasher/cairn"
+url: "https://github.com/mhd-nasher"
+abstract: >
+  Cairn is a self-contained, stack-aware system-design engine for AI coding assistants. It guides
+  complete beginners to correct, scalable architecture and gives experts an enforceable, citable
+  standard, with a full design → plan → build → verify lifecycle and built-in guardrails against
+  over-engineering.
+keywords:
+  - software-architecture
+  - system-design
+  - clean-code
+  - ai-skill
+  - claude-code
+  - developer-tools
+license: MIT
+version: 1.0.0
+date-released: "2026-06-17"

@@ -1,11 +1,29 @@
+<div align="center">
+
 # 🗿 Cairn
 
-> **The architecture compass that turns anyone into a system designer.**
+### The architecture compass that turns anyone into a system designer.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Made by Mohammed Nasher](https://img.shields.io/badge/made%20by-Mohammed%20Nasher-1f6feb)](https://github.com/mhd-nasher)
+[![AI Skill](https://img.shields.io/badge/AI-skill-8957e5)](#)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+[![GitHub stars](https://img.shields.io/github/stars/mhd-nasher/cairn?style=social)](https://github.com/mhd-nasher/cairn)
+
+**Created by [Mohammed Nasher](https://github.com/mhd-nasher) · Open source (MIT) · Free for anyone to use**
+
+</div>
+
+---
 
 Cairn is a self-contained system-design engine for AI coding assistants. It takes a **complete beginner**
 and walks them to a correct, scalable, world-class system — and gives an **expert** an enforceable, citable
 standard. It is *built structure* and *a guide at once*: like the stacked stones that mark the trail, it
 both shows the way and is itself something you build.
+
+> **Who built this?** Cairn is designed and authored by **Mohammed Nasher** ([@mhd-nasher](https://github.com/mhd-nasher)).
+> It is released open source under MIT — use it, fork it, ship with it. If it helps you, a ⭐ on the repo
+> and a mention go a long way.
 
 ## Why Cairn is different
 
@@ -26,6 +44,7 @@ Cairn refuses both:
 
 - **Version:** 1.0.0
 - **Name:** `cairn`
+- **Author:** Mohammed Nasher ([@mhd-nasher](https://github.com/mhd-nasher))
 - **Tagline:** the architecture compass that turns anyone into a system designer
 - **Modes:** Guided Build (beginner) · New Design · Audit/Refactor · Hand-off to Build
 - **Stack-aware:** Firebase/serverless · mobile/Flutter · web · monolith · microservices · CLI/library · embedded · data/ML
@@ -125,3 +144,37 @@ python3 cairn/scripts/check_dependencies.py <path>
 Cairn produces **structure, designs, plans, and reviews**. It does not, by itself, prove a system is secure
 or bug-free — code touching money or user data gets a **separate bug + security review** before shipping.
 Cairn is stack-aware: a rule that doesn't fit your stack is suppressed, with the reason stated.
+
+## Contributing
+
+Cairn is open source and contributions are welcome. Open an issue or a pull request on the
+[GitHub repo](https://github.com/mhd-nasher/cairn). Ideas that fit Cairn's spirit: new stack profiles,
+sharper over-engineering guardrails, more evals, additional worked examples. See `evals/README.md` for the
+skill-TDD workflow used to keep Cairn trustworthy.
+
+## Author & Credits
+
+**Cairn is created and maintained by Mohammed Nasher.**
+
+- 👤 **Author:** Mohammed Nasher
+- 🐙 **GitHub:** [@mhd-nasher](https://github.com/mhd-nasher)
+- 📦 **Repository:** [github.com/mhd-nasher/cairn](https://github.com/mhd-nasher/cairn)
+- 💬 **Contact / questions / collaboration:** reach out via [GitHub](https://github.com/mhd-nasher) — open an issue or start a discussion on the repo.
+
+If you use Cairn in a project, a credit back to [@mhd-nasher](https://github.com/mhd-nasher) is appreciated.
+See [`CITATION.cff`](CITATION.cff) for citation details.
+
+## License
+
+[MIT](LICENSE) © Mohammed Nasher ([@mhd-nasher](https://github.com/mhd-nasher)). Free to use, modify, and
+distribute — keep the copyright and license notice.
+
+---
+
+<div align="center">
+
+**Built with intent by [Mohammed Nasher](https://github.com/mhd-nasher) 🗿**
+
+*If Cairn helped you build something solid, drop a ⭐ — it helps others find it.*
+
+</div>

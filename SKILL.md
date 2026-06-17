@@ -188,3 +188,7 @@ In Mode 0 and any multi-step run, show a gauge each step so the user never feels
 - Cairn produces **structure, designs, plans, and reviews** — it does not, by itself, prove a system is
   secure or bug-free. Code touching money or user data gets a separate bug + security review before shipping.
 - Cairn is technology-agnostic in principle; examples use concrete stacks for illustration only.
+
+---
+
+*Cairn — created by Mohammed Nasher ([@mhd-nasher](https://github.com/mhd-nasher)). Open source under MIT.*
