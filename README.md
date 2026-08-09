@@ -161,7 +161,7 @@ skill-TDD workflow used to keep Cairn trustworthy.
 - 👤 **Author:** Mohammed Nasher
 - 🐙 **GitHub:** [@mhd-nasher](https://github.com/mhd-nasher)
 - 📦 **Repository:** [github.com/mhd-nasher/cairn](https://github.com/mhd-nasher/cairn)
-- 🧩 **Forge suite siblings:** [Loom](https://github.com/mhd-nasher/loom) · [Anvil](https://github.com/mhd-nasher/anvil) · [Lens](https://github.com/mhd-nasher/lens) · [Bastion](https://github.com/mhd-nasher/bastion) · [Relay](https://github.com/mhd-nasher/relay) — hub: [forge](https://github.com/mhd-nasher/forge)
+- 🧩 **Forge suite siblings:** [Helm](https://github.com/mhd-nasher/helm) · [Loom](https://github.com/mhd-nasher/loom) · [Anvil](https://github.com/mhd-nasher/anvil) · [Lens](https://github.com/mhd-nasher/lens) · [Bastion](https://github.com/mhd-nasher/bastion) · [Relay](https://github.com/mhd-nasher/relay) — hub: [forge](https://github.com/mhd-nasher/forge)
 - 💬 **Contact / questions / collaboration:** reach out via [GitHub](https://github.com/mhd-nasher) — open an issue or start a discussion on the repo.
 
 If you use Cairn in a project, a credit back to [@mhd-nasher](https://github.com/mhd-nasher) is appreciated.
