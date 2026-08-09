@@ -7,12 +7,12 @@
 ### The architecture compass that turns anyone into a system designer.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Made by Nasher](https://img.shields.io/badge/made%20by-Mohammed%20Nasher-1f6feb)](https://github.com/mhd-nasher)
+[![Made by Mohammed Nasher](https://img.shields.io/badge/made%20by-Mohammed%20Nasher-1f6feb)](https://github.com/mhd-nasher)
 [![AI Skill](https://img.shields.io/badge/AI-skill-8957e5)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![GitHub stars](https://img.shields.io/github/stars/mhd-nasher/cairn?style=social)](https://github.com/mhd-nasher/cairn)
 
-**Created by [Nasher](https://github.com/mhd-nasher) · Open source (MIT) · Free for anyone to use**
+**Created by [Mohammed Nasher](https://github.com/mhd-nasher) · Open source (MIT) · Free for anyone to use**
 
 </div>
 
@@ -23,7 +23,7 @@ and walks them to a correct, scalable, world-class system — and gives an **exp
 standard. It is *built structure* and *a guide at once*: like the stacked stones that mark the trail, it
 both shows the way and is itself something you build.
 
-> **Who built this?** Cairn is designed and authored by **Nasher** ([@mhd-nasher](https://github.com/mhd-nasher)).
+> **Who built this?** Cairn is designed and authored by **Mohammed Nasher** ([@mhd-nasher](https://github.com/mhd-nasher)).
 > It is released open source under MIT — use it, fork it, ship with it. If it helps you, a ⭐ on the repo
 > and a mention go a long way.
 
@@ -46,7 +46,7 @@ Cairn refuses both:
 
 - **Version:** 1.0.0
 - **Name:** `cairn`
-- **Author:** Nasher ([@mhd-nasher](https://github.com/mhd-nasher))
+- **Author:** Mohammed Nasher ([@mhd-nasher](https://github.com/mhd-nasher))
 - **Tagline:** the architecture compass that turns anyone into a system designer
 - **Modes:** Guided Build (beginner) · New Design · Audit/Refactor · Hand-off to Build
 - **Stack-aware:** Firebase/serverless · mobile/Flutter · web · monolith · microservices · CLI/library · embedded · data/ML
@@ -156,11 +156,12 @@ skill-TDD workflow used to keep Cairn trustworthy.
 
 ## Author & Credits
 
-**Cairn is created and maintained by Nasher.**
+**Cairn is created and maintained by Mohammed Nasher.**
 
-- 👤 **Author:** Nasher
+- 👤 **Author:** Mohammed Nasher
 - 🐙 **GitHub:** [@mhd-nasher](https://github.com/mhd-nasher)
 - 📦 **Repository:** [github.com/mhd-nasher/cairn](https://github.com/mhd-nasher/cairn)
+- 🧩 **Forge suite siblings:** [Loom](https://github.com/mhd-nasher/loom) · [Anvil](https://github.com/mhd-nasher/anvil) · [Lens](https://github.com/mhd-nasher/lens) · [Bastion](https://github.com/mhd-nasher/bastion) · [Relay](https://github.com/mhd-nasher/relay) — hub: [forge](https://github.com/mhd-nasher/forge)
 - 💬 **Contact / questions / collaboration:** reach out via [GitHub](https://github.com/mhd-nasher) — open an issue or start a discussion on the repo.
 
 If you use Cairn in a project, a credit back to [@mhd-nasher](https://github.com/mhd-nasher) is appreciated.
@@ -168,14 +169,14 @@ See [`CITATION.cff`](CITATION.cff) for citation details.
 
 ## License
 
-[MIT](LICENSE) © Nasher ([@mhd-nasher](https://github.com/mhd-nasher)). Free to use, modify, and
+[MIT](LICENSE) © Mohammed Nasher ([@mhd-nasher](https://github.com/mhd-nasher)). Free to use, modify, and
 distribute — keep the copyright and license notice.
 
 ---
 
 <div align="center">
 
-**Built with intent by [Nasher](https://github.com/mhd-nasher) 🗿**
+**Built with intent by [Mohammed Nasher](https://github.com/mhd-nasher) 🗿**
 
 *If Cairn helped you build something solid, drop a ⭐ — it helps others find it.*
 
